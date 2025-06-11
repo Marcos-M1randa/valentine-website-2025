@@ -9,7 +9,7 @@ const CONFIG = {
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
-    pageTitle: "Will You Be My Valentine? 💝",
+    pageTitle: "I Love You much 💗",
 
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
@@ -22,15 +22,15 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Do you like me?",                                    // First interaction
-            yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
+            text: "Você gosta de mim?",                                    // First interaction
+            yesBtn: "Sim",                                             // Text for "Yes" button
+            noBtn: "Não",                                               // Text for "No" button
+            secretAnswer: "Você não gosta de mim, Tu me Ama! ❤️"           // Secret hover message
         },
         second: {
-            text: "How much do you love me?",                          // For the love meter
-            startText: "This much!",                                   // Text before the percentage
-            nextBtn: "Next ❤️"                                         // Text for the next button
+            text: "Qual a proporção que tu me ama?",                          // For the love meter
+            startText: "Meu amor por ti é...",                                   // Text before the percentage
+            nextBtn: "Avançar ❤️"                                         // Text for the next button
         },
         third: {
             text: "Will you be my Valentine on February 14th, 2025? 🌹", // The big question!
@@ -79,8 +79,8 @@ const CONFIG = {
         enabled: true,                     // Music feature is enabled
         autoplay: true,                    // Try to autoplay (note: some browsers may block this)
         musicUrl: "https://res.cloudinary.com/dspi4f76w/video/upload/v1749609551/Marcos_Belutti_-_Sonho_De_Todo_Casal_Energia_ry4emq.mp3", // Music streaming URL
-        startText: "🎵 Play Music",        // Button text to start music
-        stopText: "🔇 Stop Music",         // Button text to stop music
+        startText: "🎵 Play",        // Button text to start music
+        stopText: "🔇 Stop",         // Button text to stop music
         volume: 0.5                        // Volume level (0.0 to 1.0)
     }
 };
